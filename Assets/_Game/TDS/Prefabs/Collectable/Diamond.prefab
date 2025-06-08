@@ -68,6 +68,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: e14fd6941111279498ffbf218d7aa0cb, type: 3}
+    - target: {fileID: 3415221787293246600, guid: aeca586ee27c42f43a621b66c4e55b1a, type: 3}
+      propertyPath: m_SortingLayer
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3415221787293246600, guid: aeca586ee27c42f43a621b66c4e55b1a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3415221787293246600, guid: aeca586ee27c42f43a621b66c4e55b1a, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1981224913
+      objectReference: {fileID: 0}
     - target: {fileID: 5313647360042928790, guid: aeca586ee27c42f43a621b66c4e55b1a, type: 3}
       propertyPath: m_Name
       value: Diamond
@@ -106,6 +118,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5313647360042928790, guid: aeca586ee27c42f43a621b66c4e55b1a, type: 3}
       insertIndex: -1
       addedObject: {fileID: -1770214733071830541}
+    - targetCorrespondingSourceObject: {fileID: 6412616320045729954, guid: aeca586ee27c42f43a621b66c4e55b1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3814832892194172064}
   m_SourcePrefab: {fileID: 100100000, guid: aeca586ee27c42f43a621b66c4e55b1a, type: 3}
 --- !u!1 &5186772649962684717 stripped
 GameObject:
@@ -189,3 +204,29 @@ PolygonCollider2D:
       - {x: -0.0009532925, y: -0.15115352}
       - {x: 0.15726921, y: 0.055016875}
   m_UseDelaunayMesh: 0
+--- !u!1 &6249009126572229401 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6412616320045729954, guid: aeca586ee27c42f43a621b66c4e55b1a, type: 3}
+  m_PrefabInstance: {fileID: 1028720810429369275}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &3814832892194172064
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6249009126572229401}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 23efa9eaf673337408e3401ed80618b3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

@@ -52,6 +52,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c8820710cefc35843811676b4d679ffa, type: 3}
+    - target: {fileID: 3415221787293246600, guid: aeca586ee27c42f43a621b66c4e55b1a, type: 3}
+      propertyPath: m_SortingLayer
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3415221787293246600, guid: aeca586ee27c42f43a621b66c4e55b1a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3415221787293246600, guid: aeca586ee27c42f43a621b66c4e55b1a, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1981224913
+      objectReference: {fileID: 0}
     - target: {fileID: 5313647360042928790, guid: aeca586ee27c42f43a621b66c4e55b1a, type: 3}
       propertyPath: m_Name
       value: MuzzleFlash
