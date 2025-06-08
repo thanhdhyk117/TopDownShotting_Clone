@@ -9,20 +9,20 @@ public static class Prefs
         set => PlayerPrefs.SetInt(PrefsConsts.COIN_KEY, value);
         get => PlayerPrefs.GetInt(PrefsConsts.COIN_KEY, 0);
     }
-   public static int playerData
+   public static string playerData
     {
-        set => PlayerPrefs.SetInt(PrefsConsts.PLAYER_DATA_KEY, value);
-        get => PlayerPrefs.GetInt(PrefsConsts.PLAYER_DATA_KEY, 0);
+        set => PlayerPrefs.SetString(PrefsConsts.PLAYER_DATA_KEY, value);
+        get => PlayerPrefs.GetString(PrefsConsts.PLAYER_DATA_KEY);
     }
-   public static int playerWeaponData
+   public static string playerWeaponData
     {
-        set => PlayerPrefs.SetInt(PrefsConsts.PLAYER_WEAPON_DATA_KEY, value);
-        get => PlayerPrefs.GetInt(PrefsConsts.PLAYER_WEAPON_DATA_KEY, 0);
+        set => PlayerPrefs.SetString(PrefsConsts.PLAYER_WEAPON_DATA_KEY, value);
+        get => PlayerPrefs.GetString(PrefsConsts.PLAYER_WEAPON_DATA_KEY);
     }
-   public static int enemyData
+   public static string enemyData
     {
-        set => PlayerPrefs.SetInt(PrefsConsts.ENEMY_DATA_KEY, value);
-        get => PlayerPrefs.GetInt(PrefsConsts.ENEMY_DATA_KEY, 0);
+        set => PlayerPrefs.SetString(PrefsConsts.ENEMY_DATA_KEY, value);
+        get => PlayerPrefs.GetString(PrefsConsts.ENEMY_DATA_KEY);
     }
 
     public static bool IsEnoughCoins(int coinToCheck)
