@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fed4b4646fba03b4d83a211a6e12df8e, type: 3}
   m_Name: Enemy Stats
   m_EditorClassIdentifier: 
-  hp: 0
-  damage: 0
-  moveSpeed: 0
-  knockbackForce: 0
-  knockbackTime: 0
-  invicibleTime: 0
+  hp: 3
+  damage: 3
+  moveSpeed: 80
+  knockbackForce: 30
+  knockbackTime: 0.2
+  invicibleTime: 0.3
+  minXpBonus: 3
+  maxXpBonus: 5
+  hpUp: 25
+  damageUp: 1

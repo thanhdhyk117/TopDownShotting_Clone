@@ -25,7 +25,7 @@ public class WeaponStats : Stats
     [Header("Limit: ")]
 
     public float minFirerate = 0.1f;
-    public float minReloadTime = 0.1f;
+    public float minReloadTime = 0.01f;
 
     public int BulletUpInfo { get => bulletsUp * (level + 1); }
 
@@ -53,7 +53,7 @@ public class WeaponStats : Stats
 
     public override void Update(Action OnSucces = null, Action OnFailed = null)
     {
-        if(Prefs.IsEnoughCoins(upgradePrice) && !IsMaxLevel())
+        if (Prefs.IsEnoughCoins(upgradePrice) && !IsMaxLevel())
         {
             Prefs.coins -= upgradePrice;
 
